@@ -1,0 +1,226 @@
+body *{
+    
+    color: white;
+    @media screen and (max-width:800px)
+    {
+        body
+        {
+            width: 90%;
+            max-width: 1200px;
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 30px;
+            padding: 35px 0px;
+
+        }
+
+    }
+
+}
+
+a{
+    text-decoration-line: none;
+}
+
+nav{
+    background-color: #0a1a2a;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li{
+    display: block;
+    padding: 15px 20px;
+}
+.menu-horizontal >li:hover{
+    background:#162f49;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+
+
+
+.menu-hori{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-hori > li{
+    display: block;
+    padding: 15px 20px;
+}
+.menu-hori >li:hover{
+    background:#162f49;
+}
+
+.menu-verti{
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.menu-hori li:hover .menu-verti{
+    display: block;
+}
+
+
+
+
+.fondo{
+    background: rgb(53, 111, 119);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+header{
+    background: rgb(85, 129, 123);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+    
+}
+header h1{
+    font-size: 24px;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.perfil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Russo One', sans-serif;
+    margin: 20px;
+}
+section
+{
+    overflow: hidden;
+}
+
+.colImg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.colImg article {
+    width: 28%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colImg article img {
+    margin-bottom: 10px;
+}
+
+.colImg article h3 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+} 
+section li
+{
+    font-family: 'Stick No Bills', sans-serif;
+
+}
+.pie-pagina
+{
+    width: 100%;
+    background-color: rgb(85, 129, 123);
+
+}
+.pie-pagina .grupo-1
+{
+    width: 90%;
+    max-width: 1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box h2
+{
+    color:white;
+    margin-bottom:25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p
+{
+    color:#efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a
+{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    color:#ffffff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover
+{
+    color:aqua ;
+}
+.pie-pagina .grupo-2
+{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small
+{
+    font-size: 15px; 
+}
+@media screen and (max-width:800px)
+{
+    .pie-pagina .grupo-1
+{
+    width: 90%;
+    max-width: 1200px;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+
+}
+
+}
+.carnoso{
+    height: 30px;
+    text-align: 12px;
+    background-color:#0a1a2a;
+}
